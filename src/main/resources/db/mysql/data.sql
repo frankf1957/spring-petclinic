@@ -35,6 +35,7 @@ INSERT IGNORE INTO owners VALUES (9, 'David', 'Schroeder', '2749 Blackhawk Trail
 INSERT IGNORE INTO owners VALUES (10, 'Carlos', 'Estaban', '2335 Independence La.', 'Waunakee', '6085555487');
 INSERT IGNORE INTO owners VALUES (11, 'Burr', 'Sutter', '123 ABC Lane', 'Wonderland', '5555555555');
 INSERT IGNORE INTO owners VALUES (12, 'George', 'Jetson', 'Skylane Appartments', 'Orbit City', '8885551212');
+INSERT IGNORE INTO owners VALUES (13, 'Fred', 'Flintstone', 'Limestone Road', 'Bedrock', '8885552121');
 
 INSERT IGNORE INTO pets VALUES (1, 'Leo', '2000-09-07', 1, 1);
 INSERT IGNORE INTO pets VALUES (2, 'Basil', '2002-08-06', 6, 2);
@@ -50,6 +51,7 @@ INSERT IGNORE INTO pets VALUES (11, 'Freddy', '2000-03-09', 5, 9);
 INSERT IGNORE INTO pets VALUES (12, 'Lucky', '2000-06-24', 2, 10);
 INSERT IGNORE INTO pets VALUES (13, 'Sly', '2002-06-08', 1, 10);
 INSERT IGNORE INTO pets VALUES (14, 'Astro', '2026-09-08', 2, 12);
+INSERT IGNORE INTO pets VALUES (14, 'Dino', '1111-09-08', 2, 13);
 
 INSERT IGNORE INTO visits VALUES (1, 7, '2010-03-04', 'rabies shot');
 INSERT IGNORE INTO visits VALUES (2, 8, '2011-03-04', 'rabies shot');
