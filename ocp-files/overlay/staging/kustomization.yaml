@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-bases:
+resources:
   - ../../base
 commonLabels:
   env: staging
@@ -8,5 +8,10 @@ nameSuffix: -staging
 configMapGenerator:
 - name: spring-petclinic
   env: ./staging-environment
-patchesStrategicMerge:
-- change-cause.yaml
+patches:
+  - path: change-cause.yaml
+    target:
+      group: apps
+      version: v1
+      kind: Deployment
+      name: spring-petclinic
