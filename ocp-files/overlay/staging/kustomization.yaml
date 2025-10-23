@@ -8,5 +8,5 @@ nameSuffix: -staging
 configMapGenerator:
 - name: spring-petclinic
   env: ./staging-environment
-patches:
+patchesStrategicMerge:
 - change-cause.yaml
